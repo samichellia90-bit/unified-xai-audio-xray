@@ -1,0 +1,21 @@
+{
+  "task": "audio",
+  "arch": "resnet18",
+  "best_val_acc": 0.9966666666666667,
+  "best_epoch": 1,
+  "epochs": 5,
+  "seed": 0,
+  "train_size": 3400,
+  "val_size": 600,
+  "train_label_counts": {
+    "0": 1693,
+    "1": 1707
+  },
+  "val_label_counts": {
+    "1": 293,
+    "0": 307
+  },
+  "weights_path": "weights/audio/resnet18_spec.pth",
+  "run_dir": "runs/study/audio_resnet18",
+  "dataset_dir": "data/audio"
+}

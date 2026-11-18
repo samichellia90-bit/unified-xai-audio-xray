@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data, weights and experiment outputs
+data/
+datasets/
+weights/
+runs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.safetensors
+*.mp4
+*.avi
+
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Project outputs
+outputs/

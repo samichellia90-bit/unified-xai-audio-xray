@@ -1,0 +1,26 @@
+{
+  "task": "image",
+  "arch": "densenet121",
+  "best_val_acc": 0.9808184143222506,
+  "best_epoch": 2,
+  "epochs": 6,
+  "seed": 0,
+  "pretrained": true,
+  "augment": true,
+  "balanced_loss": true,
+  "batch": 16,
+  "lr": 0.0001,
+  "train_size": 4434,
+  "val_size": 782,
+  "train_label_counts": {
+    "1": 3291,
+    "0": 1143
+  },
+  "val_label_counts": {
+    "1": 584,
+    "0": 198
+  },
+  "weights_path": "weights/image/densenet121_xray.pth",
+  "run_dir": "runs/study/image_densenet121_pretrained",
+  "dataset_dir": "data/xray"
+}

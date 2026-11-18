@@ -1,0 +1,21 @@
+{
+  "task": "image",
+  "arch": "alexnet",
+  "best_val_acc": 0.9705882352941176,
+  "best_epoch": 3,
+  "epochs": 3,
+  "seed": 0,
+  "train_size": 4434,
+  "val_size": 782,
+  "train_label_counts": {
+    "1": 3291,
+    "0": 1143
+  },
+  "val_label_counts": {
+    "1": 584,
+    "0": 198
+  },
+  "weights_path": "weights/image/alexnet_xray.pth",
+  "run_dir": "runs/study/image_alexnet",
+  "dataset_dir": "data/xray"
+}
